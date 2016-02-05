@@ -100,6 +100,8 @@ DirectoryIndex index.htm
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+			<Item Name="Deadzone.vi" Type="VI" URL="../Deadzone.vi"/>
+			<Item Name="Rising Edge Detector.vi" Type="VI" URL="../../../sprocket/src/Logic/Rising Edge Detector.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
@@ -112,10 +114,11 @@ DirectoryIndex index.htm
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 		</Item>
+		<Item Name="Obtain Action Notifier.vi" Type="VI" URL="../../../sprocket/src/Notifier/Obtain Action Notifier.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="Sprocket.lvlib" Type="Library" URL="../../../sprocket/lib/Sprocket.lvlib"/>
-		<Item Name="WPI_RobotDriveOpen2MotorWithTalon.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2MotorWithTalon.vi"/>
-		<Item Name="WPI_SafetyOutputConfigMenu.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputConfigMenu.ctl"/>
+		<Item Name="Stopwatch.vi" Type="VI" URL="../../../sprocket/src/Logic/Stopwatch.vi"/>
+		<Item Name="Elapsed Time.vi" Type="VI" URL="../../../sprocket/src/Logic/Elapsed Time.vi"/>
+		<Item Name="Sprocket.lvlib" Type="Library" URL="../Sprocket/lib/Sprocket.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -522,6 +525,8 @@ DirectoryIndex index.htm
 				<Item Name="WPI_CompressorOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorOpen.vi"/>
 				<Item Name="WPI_CompressorRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorRefNum Registry Set.vi"/>
 				<Item Name="WPI_RobotDriveTankDrive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveTankDrive.vi"/>
+				<Item Name="WPI_SafetyOutputConfigMenu.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputConfigMenu.ctl"/>
+				<Item Name="WPI_CompressorStart.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorStart.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -529,8 +534,27 @@ DirectoryIndex index.htm
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Rising Edge Detector.vi" Type="VI" URL="../../../sprocket/src/Logic/Rising Edge Detector.vi"/>
-			<Item Name="Deadzone.vi" Type="VI" URL="../../../sprocket/src/Utilities/Deadzone.vi"/>
+			<Item Name="Action Name.ctl" Type="VI" URL="../../../sprocket/src/Action/Action Name.ctl"/>
+			<Item Name="Action.ctl" Type="VI" URL="../../../sprocket/src/Action/Action.ctl"/>
+			<Item Name="Delegate.vi" Type="VI" URL="../../../sprocket/src/Stream/Delegate.vi"/>
+			<Item Name="Obtain Stream.vi" Type="VI" URL="../../../sprocket/src/Stream/Obtain Stream.vi"/>
+			<Item Name="Parse Subsystem Name.vi" Type="VI" URL="../../../sprocket/src/Stream/Parse Subsystem Name.vi"/>
+			<Item Name="Priority Push Stream.vi" Type="VI" URL="../../../sprocket/src/Stream/Priority Push Stream.vi"/>
+			<Item Name="Pull Stream.vi" Type="VI" URL="../../../sprocket/src/Stream/Pull Stream.vi"/>
+			<Item Name="Push Stream.vi" Type="VI" URL="../../../sprocket/src/Stream/Push Stream.vi"/>
+			<Item Name="Release Stream.vi" Type="VI" URL="../../../sprocket/src/Stream/Release Stream.vi"/>
+			<Item Name="Refname Enum (Actuator).ctl" Type="VI" URL="../../../sprocket/src/Refname/Refname Enum (Actuator).ctl"/>
+			<Item Name="Refname Enum (Joystick).ctl" Type="VI" URL="../../../sprocket/src/Refname/Refname Enum (Joystick).ctl"/>
+			<Item Name="Refname Enum (Notifier).ctl" Type="VI" URL="../../../sprocket/src/Refname/Refname Enum (Notifier).ctl"/>
+			<Item Name="Refname Enum (Queue).ctl" Type="VI" URL="../../../sprocket/src/Refname/Refname Enum (Queue).ctl"/>
+			<Item Name="Refname Enum (Sensor).ctl" Type="VI" URL="../../../sprocket/src/Refname/Refname Enum (Sensor).ctl"/>
+			<Item Name="Refname to String (Actuator).vi" Type="VI" URL="../../../sprocket/src/Refname/Refname to String (Actuator).vi"/>
+			<Item Name="Refname to String (Joystick).vi" Type="VI" URL="../../../sprocket/src/Refname/Refname to String (Joystick).vi"/>
+			<Item Name="Refname to String (Notifier).vi" Type="VI" URL="../../../sprocket/src/Refname/Refname to String (Notifier).vi"/>
+			<Item Name="Refname to String (Queue).vi" Type="VI" URL="../../../sprocket/src/Refname/Refname to String (Queue).vi"/>
+			<Item Name="Refname to String (Sensor).vi" Type="VI" URL="../../../sprocket/src/Refname/Refname to String (Sensor).vi"/>
+			<Item Name="Refname to String.vi" Type="VI" URL="../../../sprocket/src/Refname/Refname to String.vi"/>
+			<Item Name="Logitech Axis Mapping.ctl" Type="VI" URL="../../../sprocket/src/Typedefs/Logitech Axis Mapping.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -597,7 +621,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[0].itemID" Type="Str">{4FF352F8-3022-4351-A77C-BE95A58EEC17}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT cRIO Target/Sprocket.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
