@@ -110,8 +110,8 @@ DirectoryIndex index.htm
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
-			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
+			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 		</Item>
 		<Item Name="Obtain Action Notifier.vi" Type="VI" URL="../../../sprocket/src/Notifier/Obtain Action Notifier.vi"/>
